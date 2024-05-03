@@ -1,9 +1,5 @@
 #Crea un programa que permite ingresar cinco nombres por teclado luego que el usuario pueda elegir un nombre y se le devuelva.
 
-#SIGNO ZODIACAL
-
-
-
 print('Ingresa 5 nombres')
 
 
