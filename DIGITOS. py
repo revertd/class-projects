@@ -1,0 +1,14 @@
+#Crea una lista con 5 datos ingresados por teclado
+
+print(
+"Este programa te ayuda a crear una breve introducción sobre tu persona")
+
+a = input("Ingresa tu nombre: ")
+b = input("Ingresa tu apellido: ")
+c = input("Ingresa tu edad: ")
+d = input("Qué te gusta hacer en tu tiempo libre? (empieza con ''me gusta''): " )
+e = input("Qué tipo de música escuchas?: ")
+
+usuario = [a,b,c,d,e]
+
+print(usuario)
