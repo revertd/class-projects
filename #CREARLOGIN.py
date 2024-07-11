@@ -3,7 +3,7 @@ def crear_cuenta():
     
     while True:
          password = input("Ingresa una contraseña (minimo de 6 caracteres, con la letra inicial del nombre de usuario como primer caracter): ")
-         if len(password) < 6 or password [0] != username[0]:
+         if len(password) < 6 and password [0] != username[0]:
              print("La contraseña debe de tener minimo 6 caracteres y debe de tener la letra inicial del nombre de usuario como primer caracter")
          else:
              break
